@@ -1,0 +1,232 @@
+body
+{
+background-image:url('tlo1.jpg');
+font-size:20px;
+}
+
+
+h1
+{
+text-align:center;
+font-size: 50px;
+}
+
+h2
+{
+color: black;
+font-size: 25px;
+text-align:left;
+font-style: italic;
+}
+
+
+
+h3
+{
+color: black;
+float:left;
+font-size: 20px;
+text-align:center;
+font-style: italic;
+}
+
+
+p
+{
+color: black;
+font-size: 15px;
+}
+
+
+.container
+{
+width: 100%;
+}
+
+.menu 
+{
+float: right;
+width: 100%;
+padding: 10px 10px 10px 10px;
+text-align: center;
+}
+
+.menu > ul
+{
+color: black;
+}
+
+.menu > ol
+{
+padding:0;
+margin: 0;
+list-style-type: none;
+font-size: 20px;
+height: 35px;
+line-height: 200%;
+display: inline-block;
+
+}
+
+.menu > ol a
+{
+color: #000000;
+text-decoration: none;
+color: #000000;
+}
+
+.menu > ol > li
+{
+float: left;
+width: 200px;
+height:40px;
+}
+
+.menu > ol > li:hover
+{
+background-color: #464646;
+opacity:0.4;
+}
+
+.menu > ol > li:hover > a
+{
+color: black;
+opacity:1;
+}
+
+.menu > li a
+{
+color:black;
+}
+
+.menu > a:link
+{
+font-size: 20px;
+color: black;
+text-decoration: none;
+}
+
+.menu > a:active
+{
+font-weight: 100;
+color: #000000;
+text-decoration:none;
+}
+
+.menu > a:hover
+{
+font-style: italic;
+color: #000000;
+text-decoration:none;
+}
+
+.menu > a:visited
+{
+font-size: 20px;
+color: #000000;
+}
+
+.box1
+{
+}
+
+.nag1
+{
+margin: 10px 10px 10px 10px;
+border: none;
+padding: 20px;
+width: 45%;
+float: left;
+}
+
+.nag2
+{
+margin: 10px 10px 10px 10px;
+border: none;
+padding: 20px;
+width: 45%;
+float: left;
+}
+
+.box2
+{
+}
+
+.nag3
+{
+text-align: center;
+margin: 10px 10px 10px 10px;
+border: none;
+padding: 20px;
+width: 20%;
+float: left;
+}
+
+.nag4
+{
+text-align: center;
+margin: 10px 10px 10px 10px;
+border: none;
+padding: 20px;
+width: 35%;
+float: left;
+}
+
+.nag5
+{
+text-align: center;
+margin: 10px 10px 10px 10px;
+border: none;
+padding: 20px;
+width: 35%;
+float: left;
+}
+
+.box3
+{
+
+}
+
+.nag6
+{
+margin: 10px 10px 10px 10px;
+border: none;
+padding: 20px;
+width: 30%;
+float: left;
+}
+
+.nag7
+{
+margin: 10px 10px 10px 10px;
+border: none;
+padding: 20px;
+width: 60%;
+float: left;
+}
+
+.galery
+{
+text-align:center;
+width: 55%;
+display:inline-block;
+color: black;
+}
+
+.footer
+{
+text-align: center;
+background-color: #1f1f1f;
+font-size: 15px;
+color: white;
+bottom:0;
+width:100%;		
+height:uto;	
+display: inline-block;
+}
+
+.clearfix {
+    
+	clear:both;
+	
+}
